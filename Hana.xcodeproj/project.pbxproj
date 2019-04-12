@@ -17,6 +17,7 @@
 		961867D3226035B3009FA3FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 961867D2226035B3009FA3FE /* GoogleService-Info.plist */; };
 		961867D6226035FA009FA3FE /* authViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961867D5226035FA009FA3FE /* authViewController.swift */; };
 		961867D822603648009FA3FE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961867D722603648009FA3FE /* BaseViewController.swift */; };
+		961867DB22603815009FA3FE /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961867DA22603815009FA3FE /* extensions.swift */; };
 		AF2EBAE33A0955512B4363BB /* Pods_Hana.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C34D3938DAEB051B6C93FEE /* Pods_Hana.framework */; };
 		B928EE31719543D20B966C03 /* Pods_HanaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE6B3DE53DCBAD0CD3600CC /* Pods_HanaUITests.framework */; };
 /* End PBXBuildFile section */
@@ -61,6 +62,7 @@
 		961867D2226035B3009FA3FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		961867D5226035FA009FA3FE /* authViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = authViewController.swift; sourceTree = "<group>"; };
 		961867D722603648009FA3FE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		961867DA22603815009FA3FE /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		AD7AD6DCD74F2CE5FC4F8FD8 /* Pods-HanaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HanaUITests/Pods-HanaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CB28BFD31D32C9DC327822F7 /* Pods-HanaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HanaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HanaTests/Pods-HanaTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,6 +130,7 @@
 		9618679F22603431009FA3FE /* Hana */ = {
 			isa = PBXGroup;
 			children = (
+				961867D922603805009FA3FE /* extension */,
 				961867CE22603524009FA3FE /* source */,
 				961867D022603559009FA3FE /* resources */,
 				961867D122603566009FA3FE /* support */,
@@ -196,6 +199,14 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		961867D922603805009FA3FE /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				961867DA22603815009FA3FE /* extensions.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 		E0E10C3EEBFABB7C361B84EF /* Pods */ = {
@@ -518,6 +529,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961867DB22603815009FA3FE /* extensions.swift in Sources */,
 				961867D6226035FA009FA3FE /* authViewController.swift in Sources */,
 				961867D822603648009FA3FE /* BaseViewController.swift in Sources */,
 				961867A322603431009FA3FE /* ViewController.swift in Sources */,
