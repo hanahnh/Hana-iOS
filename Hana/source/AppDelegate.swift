@@ -28,9 +28,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let window = UIWindow(frame: UIScreen.main.bounds)
     
     
-    window.backgroundColor = .white
+//    window.backgroundColor = .white
+    
     window.makeKeyAndVisible()
-    print(window.frame)
     
 //    let serviceProvider = ServiceProvider()
 //    let reactor = mainViewReactor(provider: serviceProvider)

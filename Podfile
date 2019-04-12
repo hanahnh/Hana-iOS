@@ -29,6 +29,7 @@ target 'Hana' do
   pod 'Alamofire', '5.0.0-beta.3'
   pod 'Firebase/Core'
   pod 'Firebase/Auth'
+  pod 'Firebase/Database'
   pod 'FBSDKCoreKit'
   pod 'FBSDKLoginKit'
   pod 'GoogleSignIn'

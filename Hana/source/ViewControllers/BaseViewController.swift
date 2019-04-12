@@ -29,6 +29,7 @@ class BaseViewController: UIViewController {
 
   override func viewDidLoad() {
     self.view.setNeedsUpdateConstraints()
+    customise()
   }
 
   override func updateViewConstraints() {
@@ -41,6 +42,10 @@ class BaseViewController: UIViewController {
 
   func setupConstraints() {
     // Override point
+  }
+  
+  func customise() {
+    
   }
 
 }

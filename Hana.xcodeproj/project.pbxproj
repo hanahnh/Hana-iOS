@@ -169,8 +169,8 @@
 		961867CF22603529009FA3FE /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				961867D5226035FA009FA3FE /* authViewController.swift */,
 				961867D722603648009FA3FE /* BaseViewController.swift */,
+				961867D5226035FA009FA3FE /* authViewController.swift */,
 				961867A222603431009FA3FE /* ViewController.swift */,
 			);
 			path = ViewControllers;
@@ -702,7 +702,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Hana/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Hana/support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -721,7 +721,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Hana/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Hana/support/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
