@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>659794398141-knp4bf5vi45dfb2vuientmc97hb7eada.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.659794398141-knp4bf5vi45dfb2vuientmc97hb7eada</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>659794398141-tmqg6dc66896gk4asmls16foeadjuhke.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDkp5YwAPy1fBtFi1GfP66lFAVwyk6DNeo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>659794398141</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>top.mikoto.Hana</string>
+	<key>PROJECT_ID</key>
+	<string>hana-235912</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hana-235912.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:659794398141:ios:4f23d3f4b2ba461d</string>
+	<key>DATABASE_URL</key>
+	<string>https://hana-235912.firebaseio.com</string>
+</dict>
+</plist>
